@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>nanomq</Name>
+  <Repository>emqx/nanomq</Repository>
+  <Registry>https://hub.docker.com/r/emqx/nanomq/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/emqx/nanomq/</Support>
+  <Project>https://github.com/emqx/nanomq</Project>
+  <Overview>An ultra-lightweight and blazing-fast MQTT broker for IoT edge&#xD;
+&#xD;
+Converted by CA from https://hub.docker.com/r/emqx/nanomq/</Overview>
+  <Category>HomeAutomation: Network:Management Network:Messenger</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://nanomq.io/images/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1697097657</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port 1" Target="1883" Default="1883" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1883</Config>
+  <Config Name="Container Port 2" Target="8883" Default="8883" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8883</Config>
+  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Config file" Target="/etc/" Default="/mnt/user/appdata/nanomq/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nanomq/config</Config>
+  <Config Name="HTTP Server Port" Target="NANOMQ_HTTP_SERVER_PORT" Default="8081" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="HTTP User Name" Target="NANOMQ_HTTP_SERVER_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="HTTP Password" Target="NANOMQ_HTTP_SERVER_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Enable HTTP Server" Target="NANOMQ_HTTP_SERVER_ENABLE" Default="false" Mode="" Description="Default is false" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Allow Anonymous" Target="NANOMQ_ALLOW_ANONYMOUS" Default="true" Mode="" Description="Defaults to true" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
