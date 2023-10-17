@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/emqx/nanomq/</Support>
+  <Support>https://github.com/emqx/nanomq/issues</Support>
   <Project>https://github.com/emqx/nanomq</Project>
   <Overview>An ultra-lightweight and blazing-fast MQTT broker for IoT edge/</Overview>
   <Category>HomeAutomation: Network:Management Network:Messenger</Category>
