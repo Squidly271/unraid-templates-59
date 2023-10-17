@@ -9,9 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/emqx/nanomq/</Support>
   <Project>https://github.com/emqx/nanomq</Project>
-  <Overview>An ultra-lightweight and blazing-fast MQTT broker for IoT edge&#xD;
-&#xD;
-Converted by CA from https://hub.docker.com/r/emqx/nanomq/</Overview>
+  <Overview>An ultra-lightweight and blazing-fast MQTT broker for IoT edge/</Overview>
   <Category>HomeAutomation: Network:Management Network:Messenger</Category>
   <WebUI/>
   <TemplateURL/>
