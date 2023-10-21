@@ -23,7 +23,6 @@
   <Requires/>
   <Config Name="Container Port 1" Target="1883" Default="1883" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1883</Config>
   <Config Name="Container Port 2" Target="8883" Default="8883" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8883</Config>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="Config file" Target="/etc/" Default="/mnt/user/appdata/nanomq/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nanomq/config</Config>
   <Config Name="HTTP Server Port" Target="NANOMQ_HTTP_SERVER_PORT" Default="8081" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="HTTP User Name" Target="NANOMQ_HTTP_SERVER_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
